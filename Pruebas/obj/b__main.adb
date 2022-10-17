@@ -31,6 +31,8 @@ package body ada_main is
    E117 : Short_Integer; pragma Import (Ada, E117, "ada__finalization_E");
    E116 : Short_Integer; pragma Import (Ada, E116, "system__file_io_E");
    E106 : Short_Integer; pragma Import (Ada, E106, "ada__text_io_E");
+   E125 : Short_Integer; pragma Import (Ada, E125, "week__child_E");
+   E127 : Short_Integer; pragma Import (Ada, E127, "week__child__grandchild_E");
 
    Sec_Default_Sized_Stacks : array (1 .. 1) of aliased System.Secondary_Stack.SS_Stack (System.Parameters.Runtime_Default_Sec_Stack_Size);
 
@@ -208,6 +210,8 @@ package body ada_main is
       Ada.Text_Io'Elab_Spec;
       Ada.Text_Io'Elab_Body;
       E106 := E106 + 1;
+      E125 := E125 + 1;
+      E127 := E127 + 1;
    end adainit;
 
    procedure Ada_Main_Program;
@@ -246,6 +250,8 @@ package body ada_main is
 
 --  BEGIN Object file/option list
    --   C:\Users\jbsaldana\cursos\ada\Pruebas\obj\week.o
+   --   C:\Users\jbsaldana\cursos\ada\Pruebas\obj\week-child.o
+   --   C:\Users\jbsaldana\cursos\ada\Pruebas\obj\week-child-grandchild.o
    --   C:\Users\jbsaldana\cursos\ada\Pruebas\obj\main.o
    --   -LC:\Users\jbsaldana\cursos\ada\Pruebas\obj\
    --   -LC:\Users\jbsaldana\cursos\ada\Pruebas\obj\

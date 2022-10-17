@@ -1,0 +1,36 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_SECONDARY_STACK
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U week.child.grandchild%b  week-child-grandchild.adb  5a9beadc NE OO PK
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W week.child%s		week-child.adb		week-child.ali
+
+U week.child.grandchild%s  week-child-grandchild.ads  15d53258 EE NE OO PK
+W week.child%s		week-child.adb		week-child.ali
+
+D system.ads		20210520051136 2ffa5114 system%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D week.ads		20221016155538 f5cb684c week%s
+D week-child.ads	20221017074736 95002058 week.child%s
+D week-child-grandchild.ads  20221017143016 80d51200 week.child.grandchild%s
+D week-child-grandchild.adb  20221017143116 da4ef8dc week.child.grandchild%b
+G a e
+G c Z s b [get_second_of_week week__child__grandchild 2 13 none]
+X 5 week.ads
+1K9*Week 9e9 7|1r9 3r5 8|1r14 6r5
+3a4*Tue{string} 8|4r14
+X 6 week-child.ads
+1K14*Child 5|1k9 6|3e15 7|1r14 3r10 8|1r19 6r10
+X 7 week-child-grandchild.ads
+1K20*Grandchild 6|1k14 7|3l16 3e26 8|1b25 6l16 6t26
+2V13*Get_Second_Of_Week{string} 8|2b13 5l8 5t26
+

@@ -1,8 +1,7 @@
-with Ada.Text_IO; use Ada.Text_IO;
-with Week;
+with Ada.Text_IO;           use Ada.Text_IO;
+with Week.Child.Grandchild; use Week.Child.Grandchild;
 
 procedure Main is
-   use Week;
 begin
-   Put_Line ("First day of the week is " & Mon);
+   Put_Line ("Second day of the week is " & Get_Second_Of_Week);
 end Main;

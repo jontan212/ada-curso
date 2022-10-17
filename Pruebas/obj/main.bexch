@@ -5,6 +5,8 @@ C:\Users\jbsaldana\cursos\ada\Pruebas\pruebas.gpr
 20221016155822 303d463628c3804675321faff43855fa
 [BOUND OBJECT FILES]
 C:\Users\jbsaldana\cursos\ada\Pruebas\obj\week.o
+C:\Users\jbsaldana\cursos\ada\Pruebas\obj\week-child.o
+C:\Users\jbsaldana\cursos\ada\Pruebas\obj\week-child-grandchild.o
 C:\Users\jbsaldana\cursos\ada\Pruebas\obj\main.o
 [GENERATED SOURCE FILES]
 b__main.ads
@@ -15,5 +17,6 @@ b__main.ali
 -LC:\Users\jbsaldana\cursos\ada\Pruebas\obj\
 -LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
 -static
+-static-libgcc
 C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
 -Wl,--stack=0x2000000

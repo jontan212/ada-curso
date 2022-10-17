@@ -1,0 +1,33 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_SECONDARY_STACK
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U week.child%b		week-child.adb		51a7ab69 NE OO PK
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W week%s		week.ads		week.ali
+
+U week.child%s		week-child.ads		60cb4814 EE NE OO PK
+W week%s		week.ads		week.ali
+
+D system.ads		20210520051136 2ffa5114 system%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D week.ads		20221016155538 f5cb684c week%s
+D week-child.ads	20221017074736 95002058 week.child%s
+D week-child.adb	20221017075650 c4a78b31 week.child%b
+G a e
+G c Z s b [get_first_of_week week__child 2 13 none]
+X 5 week.ads
+1K9*Week 9e9 6|1r9 3r5 7|1r14 6r5
+2a4*Mon{string} 7|4r14
+X 6 week-child.ads
+1K14*Child 5|1k9 6|3l10 3e15 7|1b19 6l10 6t15
+2V13*Get_First_Of_Week{string} 7|2b13 5l8 5t25
+

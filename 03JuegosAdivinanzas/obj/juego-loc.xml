@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
-<Locations >
-  <Project >
-    <file_marker column=" 1" line=" 1" >
+<Locations>
+  <Project>
+    <vfs_file />
+    <file_marker column=" 1" line=" 9" >
       <vfs_project>C:\Users\jbsaldana\cursos\ada\Pruebas\pruebas.gpr</vfs_project>
       <vfs_file>C:\Users\jbsaldana\cursos\ada\Pruebas\src\main.adb</vfs_file>
     </file_marker>
@@ -69,41 +70,9 @@
       <vfs_project />
       <vfs_file>C:\Users\jbsaldana\cursos\ada\03JuegosAdivinanzas\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
+    <file_marker current="true" column=" 1" line=" 1" >
       <vfs_project />
       <vfs_file>C:\Users\jbsaldana\cursos\ada\03JuegosAdivinanzas\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\jbsaldana\cursos\ada\Pruebas\pruebas.gpr</vfs_project>
-      <vfs_file>C:\Users\jbsaldana\cursos\ada\Pruebas\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 10" >
-      <vfs_project>C:\Users\jbsaldana\cursos\ada\Pruebas\pruebas.gpr</vfs_project>
-      <vfs_file>C:\Users\jbsaldana\cursos\ada\Pruebas\src\week.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 33" line=" 8" >
-      <vfs_project>C:\Users\jbsaldana\cursos\ada\Pruebas\pruebas.gpr</vfs_project>
-      <vfs_file>C:\Users\jbsaldana\cursos\ada\Pruebas\src\operations.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 6" >
-      <vfs_project>C:\Users\jbsaldana\cursos\ada\Pruebas\pruebas.gpr</vfs_project>
-      <vfs_file>C:\Users\jbsaldana\cursos\ada\Pruebas\src\operations.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 18" line=" 4" >
-      <vfs_project>C:\Users\jbsaldana\cursos\ada\Pruebas\pruebas.gpr</vfs_project>
-      <vfs_file>C:\Users\jbsaldana\cursos\ada\Pruebas\src\week-child.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 2" >
-      <vfs_project>C:\Users\jbsaldana\cursos\ada\Pruebas\pruebas.gpr</vfs_project>
-      <vfs_file>C:\Users\jbsaldana\cursos\ada\Pruebas\src\week-child-grandchild.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 2" >
-      <vfs_project>C:\Users\jbsaldana\cursos\ada\Pruebas\pruebas.gpr</vfs_project>
-      <vfs_file>C:\Users\jbsaldana\cursos\ada\Pruebas\src\week-child-grandchild.ads</vfs_file>
-    </file_marker>
-    <file_marker current="true" column=" 1" line=" 1" >
-      <vfs_project>C:\Users\jbsaldana\cursos\ada\Pruebas\pruebas.gpr</vfs_project>
-      <vfs_file>C:\Users\jbsaldana\cursos\ada\Pruebas\src\week-child-grandchild.adb</vfs_file>
     </file_marker>
   </Project>
 </Locations>
