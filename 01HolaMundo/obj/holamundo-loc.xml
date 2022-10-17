@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project >
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\jbsaldana\cursos\ada\01HolaMundo\holamundo.gpr</vfs_project>
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\01HolaMundo\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\01HolaMundo\2proyecto.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 6" >
+      <vfs_project />
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\01HolaMundo\2proyecto.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\01HolaMundo\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\01HolaMundo\2proyecto.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\01HolaMundo\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\01HolaMundo\2proyecto.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\01HolaMundo\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\01HolaMundo\2proyecto.gpr</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

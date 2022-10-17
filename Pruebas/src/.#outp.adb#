@@ -1,0 +1,11 @@
+procedure Outp is
+   procedure Foo (A : out Integer) is
+      B : Integer := A;
+      --             ^ Advertencia sobre la
+      --               referencia A no inicializado
+   begin
+      A := B;
+   end Foo;
+begin
+   null;
+end Outp;

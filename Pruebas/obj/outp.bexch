@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__outp.o
+[PROJECT FILES]
+C:\Users\jbsaldana\cursos\ada\Pruebas\pruebas.gpr
+20221013132106 8c53860ad657223cd92df9292ab1ff54
+[BOUND OBJECT FILES]
+C:\Users\jbsaldana\cursos\ada\Pruebas\obj\outp.o
+[GENERATED SOURCE FILES]
+b__outp.ads
+b__outp.adb
+b__outp.ali
+[RESULTING OPTIONS]
+-LC:\Users\jbsaldana\cursos\ada\Pruebas\obj\
+-LC:\Users\jbsaldana\cursos\ada\Pruebas\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

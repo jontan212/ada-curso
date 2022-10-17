@@ -1,0 +1,124 @@
+Source recreated from tree for Main (body)
+------------------------------------------
+
+-- 1: --  with Ada.Text_IO; use Ada.Text_IO;
+-- 2: --  with Ada.Numerics.Discrete_Random;
+-- 3: --
+-- 4: --  procedure Main is
+-- 5: --     subtype Random_Range is Integer range 1 .. 100;
+-- 6: --
+-- 7: --     package R is new Ada.Numerics.Discrete_Random (Random_Range);
+-- 8: --     use R;
+-- 9: --
+-- 10: --     G : Generator;
+-- 11: --     X : Random_Range;
+-- 12: --  begin
+-- 13: --     Reset (G);
+-- 14: --
+-- 15: --     Put_Line
+-- 16: --       ("Some random numbers between " & Integer'Image (Random_Range'First) &
+-- 17: --        " and " & Integer'Image (Random_Range'Last) & ":");
+-- 18: --
+-- 19: --     for I in 1 .. 10 loop
+-- 20: --        X := Random (G);
+-- 21: --        Put_Line (Integer'Image (X));
+-- 22: --     end loop;
+-- 23: --  end Main;
+
+-- 24:
+
+-- 25: with Ada.Numerics.Float_Random, Ada.Float_Text_IO, Ada.Integer_Text_IO, Ada
+with ada;
+with ada;
+with ada;
+with ada;
+with ada.ada__numerics;
+with ada.ada__numerics.ada__numerics__float_random;
+with ada.ada__float_text_io;
+with ada.ada__integer_text_io;
+with ada.ada__text_io;
+
+-- 26:   .Text_IO;
+
+-- 27: use Ada.Numerics.Float_Random, Ada.Float_Text_IO, Ada.Integer_Text_IO,
+use ada.ada__numerics.ada__numerics__float_random;
+use ada.ada__float_text_io;
+use ada.ada__integer_text_io;
+use ada.ada__text_io;
+with ada__strings.ada__strings.ada__strings__text_buffers;
+with system.system__img_int;
+
+-- 28:   Ada.Text_IO;
+
+-- 29:
+
+-- 30: procedure Main is
+procedure main is
+
+-- 31:    G : Generator;
+   g : ada__numerics__float_random__generator;
+   $system__random_numbers__generatorIP (
+     system__random_numbers__generator?(g), _init_level => 1);
+
+-- 32:    X : Integer;
+   x : integer;
+   L_1 : label
+
+-- 33: begin
+begin
+
+-- 34:    Reset (G);
+   ada__numerics__float_random__reset (g);
+
+-- 35:
+
+-- 36:    for I in 1 .. 10 loop
+   L_1 : for i in 1 .. 10 loop
+
+-- 37:       X := Integer (Random (G) * 100.0 + 1.0);
+      R2b : constant float := ada__numerics__float_random__random (g) *
+        [13107200.0*2**(-17)] + [8388608.0*2**(-23)];
+      [constraint_error when
+        not (R2b >= -2147483648.0 and then R2b < 2147483648.0)
+        "overflow check failed"]
+      x := integer(R2b);
+
+-- 38:       Put_Line (Integer'Image (X));
+      subtype TS3bS is string (1 .. 11);
+      S3b : string (1 .. 11);
+      P4b : natural;
+      $system__img_int__impl__image_integer (x, S3b, P4b);
+      R5b : constant natural := P4b;
+      [subtype T6b is integer range 1 .. R5b]
+      [subtype T7b is string (T6b)]
+      reference T7b
+      ada__text_io__put_line__2 (S3b (1 .. R5b));
+
+-- 39:    end loop;
+   end loop L_1;
+
+-- 40: end Main;
+   return;
+end main;
+
+[subtype T2s is String (1 .. 40);]
+freeze_generic T2s
+[subtype T3s is String (1 .. 41);]
+freeze_generic T3s
+[subtype T4s is String (1 .. 41);]
+freeze_generic T4s
+[subtype T5s is String (1 .. 40);]
+freeze_generic T5s
+[subtype T6s is String (1 .. 41);]
+freeze_generic T6s
+[subtype T2s is String (1 .. 40);]
+freeze_generic T2s
+[subtype T3s is String (1 .. 41);]
+freeze_generic T3s
+[subtype T4s is String (1 .. 41);]
+freeze_generic T4s
+[subtype T5s is String (1 .. 40);]
+freeze_generic T5s
+[subtype T6s is String (1 .. 41);]
+freeze_generic T6s
+

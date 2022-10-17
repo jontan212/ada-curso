@@ -1,0 +1,23 @@
+V "GNAT Lib v2021"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U mutually_recursive_subprograms%b  mutually_recursive_subprograms.adb  931dc6e7 NE OO SU
+
+D mutually_recursive_subprograms.adb  20221015205234 931dc6e7 mutually_recursive_subprograms%b
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z b b [mutually_recursive_subprograms standard 1 11 none]
+X 1 mutually_recursive_subprograms.adb
+1U11*Mutually_Recursive_Subprograms 1b11 22l5 22t35
+2U14 Compute_A 2>25 8s10 13b14 19l8 19t17 21s4
+2i25 V{natural} 13b25 15r10 16r21
+5U14 Compute_B 5b14 5>25 11l8 11t17 16s10
+5i25 V{natural} 7r10 8r21
+

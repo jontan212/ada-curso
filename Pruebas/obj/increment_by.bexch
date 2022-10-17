@@ -1,0 +1,22 @@
+[MAPPING FILE]
+C:\Users\JBSALD~1\AppData\Local\Temp\GNAT-TEMP-000008.TMP
+[TOOLCHAIN VERSION]
+ada
+GNAT 2021
+[MAIN BASE NAME]
+increment_by
+[COMPILER PATH]
+c:\gnat\2021\bin\gcc.exe
+[COMPILER LEADING SWITCHES]
+-c
+-x
+ada
+-gnatA
+[MAIN DEPENDENCY FILE]
+C:\Users\jbsaldana\cursos\ada\Pruebas\obj\increment_by.ali
+[DEPENDENCY FILES]
+[BINDING OPTIONS]
+gnatbind_prefix=
+[PROJECT FILES]
+C:\Users\jbsaldana\cursos\ada\Pruebas\pruebas.gpr
+20221016145844 9a2aa3ec1c0e7dc48cd3a8993be41769
