@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<Locations>
+  <Project>
+    <vfs_file />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\jbsaldana\cursos\ada\Pruebas\pruebas.gpr</vfs_project>
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\Pruebas\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 27" line=" 6" >
+      <vfs_project>C:\Users\jbsaldana\cursos\ada\Pruebas\pruebas.gpr</vfs_project>
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\Pruebas\src\week-child-grandchild.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\jbsaldana\cursos\ada\Pruebas\pruebas.gpr</vfs_project>
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\Pruebas\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 2" >
+      <vfs_project>C:\Users\jbsaldana\cursos\ada\Pruebas\pruebas.gpr</vfs_project>
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\Pruebas\src\week-child_2.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 2" >
+      <vfs_project>C:\Users\jbsaldana\cursos\ada\Pruebas\pruebas.gpr</vfs_project>
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\Pruebas\src\week-child_2.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 4" >
+      <vfs_project>C:\Users\jbsaldana\cursos\ada\Pruebas\pruebas.gpr</vfs_project>
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\Pruebas\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 2" >
+      <vfs_project>C:\Users\jbsaldana\cursos\ada\Pruebas\pruebas.gpr</vfs_project>
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\Pruebas\src\book.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 2" >
+      <vfs_project>C:\Users\jbsaldana\cursos\ada\Pruebas\pruebas.gpr</vfs_project>
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\Pruebas\src\book.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 13" >
+      <vfs_project>C:\Users\jbsaldana\cursos\ada\Pruebas\pruebas.gpr</vfs_project>
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\Pruebas\src\book.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 2" >
+      <vfs_project>C:\Users\jbsaldana\cursos\ada\Pruebas\pruebas.gpr</vfs_project>
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\Pruebas\src\book-additional_operations.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 2" >
+      <vfs_project>C:\Users\jbsaldana\cursos\ada\Pruebas\pruebas.gpr</vfs_project>
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\Pruebas\src\book-additional_operations.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\04Subprogramas\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 4" >
+      <vfs_project />
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\04Subprogramas\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 7" >
+      <vfs_project />
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\04Subprogramas\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 17" >
+      <vfs_project />
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\04Subprogramas\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 7" >
+      <vfs_project />
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\04Subprogramas\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\04Subprogramas\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 7" >
+      <vfs_project />
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\04Subprogramas\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\04Subprogramas\subprogramas.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 7" >
+      <vfs_project />
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\04Subprogramas\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 5" >
+      <vfs_project />
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\04Subprogramas\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 18" >
+      <vfs_project />
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\04Subprogramas\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 5" >
+      <vfs_project />
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\04Subprogramas\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 13" >
+      <vfs_project />
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\04Subprogramas\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\04Subprogramas\subprogramas.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 10" >
+      <vfs_project />
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\04Subprogramas\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 30" line=" 9" >
+      <vfs_project />
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\04Subprogramas\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 5" >
+      <vfs_project />
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\04Subprogramas\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 6" >
+      <vfs_project />
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\04Subprogramas\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 9" >
+      <vfs_project />
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\04Subprogramas\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 2" >
+      <vfs_project />
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\04Subprogramas\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 5" >
+      <vfs_project />
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\04Subprogramas\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 6" >
+      <vfs_project />
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\04Subprogramas\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 5" >
+      <vfs_project />
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\04Subprogramas\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 31" line=" 6" >
+      <vfs_project />
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\04Subprogramas\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 10" line=" 9" >
+      <vfs_project />
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\04Subprogramas\src\main.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

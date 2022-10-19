@@ -3,24 +3,16 @@ M P W=b
 A -gnatA
 A -mtune=generic
 A -march=x86-64
-P SS ZX
+P ZX
 
 RN
 RV NO_IO
-RV NO_LOCAL_ALLOCATORS
-RV NO_STANDARD_STORAGE_POOLS
-RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U main%b		main.adb		86db4650 NE OO SU
+U main%b		main.adb		95165eef NE OO SU
 W ada%s			ada.ads			ada.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
-Z system.concat_2%s	s-conca2.adb		s-conca2.ali
-Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
-W week%s		week.ads		week.ali
-W week.child%s		week-child.adb		week-child.ali
-W week.child.grandchild%s  week-child-grandchild.adb  week-child-grandchild.ali
 
 D ada.ads		20210520051132 76789da1 ada%s
 D a-except.ads		20210520051128 946f3014 ada.exceptions%s
@@ -34,9 +26,8 @@ D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
-D main.adb		20221017152002 a8fa813d main%b
+D main.adb		20221019153938 3be28b82 main%b
 D system.ads		20210520051136 2ffa5114 system%s
-D s-conca2.ads		20210520051132 02a0d7d0 system.concat_2%s
 D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
 D s-exctab.ads		20210520051132 54135002 system.exception_table%s
 D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
@@ -52,24 +43,18 @@ D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
 D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
 D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
 D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
-D week.ads		20221016155538 f5cb684c week%s
-D week-child.ads	20221017074736 95002058 week.child%s
-D week-child-grandchild.ads  20221017143016 80d51200 week.child.grandchild%s
 G a e
-G c Z b b [main standard 4 11 none]
-G r c none [main standard 4 11 none] [get_second_of_week week__child__grandchild 2 13 none]
+G c Z b b [main standard 2 11 none]
 X 1 ada.ads
-16K9*Ada 20e8 13|1r6 1r33
+16K9*Ada 20e8 13|1r6 1r23
 X 9 a-textio.ads
-58K13*Text_IO 725e16 13|1w10 1r37
-506U14*Put_Line 13|6s4
+58K13*Text_IO 725e16 13|1w10 1r27
+506U14*Put_Line 13|14s7
 X 13 main.adb
-4U11*Main 4b11 7l5 7t9
-X 31 week.ads
-1K9*Week 13|2r6 2r33 31|9e9
-X 32 week-child.ads
-1K14*Child 13|2r11 2r38 32|3e15
-X 33 week-child-grandchild.ads
-1K20*Grandchild 13|2w17 2r44 33|3e26
-2V13*Get_Second_Of_Week{string} 13|6s45
+2U11*Main 2b11 16l5 16t9
+3M9 Mod_Int 6r17 7r17 9r17
+6m4 A{3M9} 9r28
+7m4 B{3M9} 9r32
+9m4 M{3M9} 13r18
+13m8 I{3M9}
 

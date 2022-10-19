@@ -2,11 +2,8 @@
 b__main.o
 [PROJECT FILES]
 C:\Users\jbsaldana\cursos\ada\Pruebas\pruebas.gpr
-20221016155822 303d463628c3804675321faff43855fa
+20221018095408 1b85c9effa96984c86e45fce7f761c17
 [BOUND OBJECT FILES]
-C:\Users\jbsaldana\cursos\ada\Pruebas\obj\week.o
-C:\Users\jbsaldana\cursos\ada\Pruebas\obj\week-child.o
-C:\Users\jbsaldana\cursos\ada\Pruebas\obj\week-child-grandchild.o
 C:\Users\jbsaldana\cursos\ada\Pruebas\obj\main.o
 [GENERATED SOURCE FILES]
 b__main.ads

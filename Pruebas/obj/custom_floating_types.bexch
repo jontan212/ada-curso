@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__custom_floating_types.o
+[PROJECT FILES]
+C:\Users\jbsaldana\cursos\ada\Pruebas\pruebas.gpr
+20221019181824 3dc0e2a8a2541df09ba75b7873f71a00
+[BOUND OBJECT FILES]
+C:\Users\jbsaldana\cursos\ada\Pruebas\obj\custom_floating_types.o
+[GENERATED SOURCE FILES]
+b__custom_floating_types.ads
+b__custom_floating_types.adb
+b__custom_floating_types.ali
+[RESULTING OPTIONS]
+-LC:\Users\jbsaldana\cursos\ada\Pruebas\obj\
+-LC:\Users\jbsaldana\cursos\ada\Pruebas\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

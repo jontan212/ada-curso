@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__enumeration_example.o
+[PROJECT FILES]
+C:\Users\jbsaldana\cursos\ada\Pruebas\pruebas.gpr
+20221019162102 9a2546032d496b7943d7a912ed637361
+[BOUND OBJECT FILES]
+C:\Users\jbsaldana\cursos\ada\Pruebas\obj\enumeration_example.o
+[GENERATED SOURCE FILES]
+b__enumeration_example.ads
+b__enumeration_example.adb
+b__enumeration_example.ali
+[RESULTING OPTIONS]
+-LC:\Users\jbsaldana\cursos\ada\Pruebas\obj\
+-LC:\Users\jbsaldana\cursos\ada\Pruebas\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

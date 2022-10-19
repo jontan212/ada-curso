@@ -40,7 +40,7 @@ package ada_main is
    pragma Export (C, main, "main");
 
    type Version_32 is mod 2 ** 32;
-   u00001 : constant Version_32 := 16#86db4650#;
+   u00001 : constant Version_32 := 16#95165eef#;
    pragma Export (C, u00001, "mainB");
    u00002 : constant Version_32 := 16#2e11c0b1#;
    pragma Export (C, u00002, "system__standard_libraryB");
@@ -280,24 +280,10 @@ package ada_main is
    pragma Export (C, u00119, "system__finalization_rootS");
    u00120 : constant Version_32 := 16#d265cbbc#;
    pragma Export (C, u00120, "system__file_control_blockS");
-   u00121 : constant Version_32 := 16#fd83e873#;
-   pragma Export (C, u00121, "system__concat_2B");
-   u00122 : constant Version_32 := 16#2d5a86c4#;
-   pragma Export (C, u00122, "system__concat_2S");
-   u00123 : constant Version_32 := 16#f5cb684c#;
-   pragma Export (C, u00123, "weekS");
-   u00124 : constant Version_32 := 16#51a7ab69#;
-   pragma Export (C, u00124, "week__childB");
-   u00125 : constant Version_32 := 16#60cb4814#;
-   pragma Export (C, u00125, "week__childS");
-   u00126 : constant Version_32 := 16#5a9beadc#;
-   pragma Export (C, u00126, "week__child__grandchildB");
-   u00127 : constant Version_32 := 16#15d53258#;
-   pragma Export (C, u00127, "week__child__grandchildS");
-   u00128 : constant Version_32 := 16#eca5ecae#;
-   pragma Export (C, u00128, "system__memoryB");
-   u00129 : constant Version_32 := 16#76873720#;
-   pragma Export (C, u00129, "system__memoryS");
+   u00121 : constant Version_32 := 16#eca5ecae#;
+   pragma Export (C, u00121, "system__memoryB");
+   u00122 : constant Version_32 := 16#76873720#;
+   pragma Export (C, u00122, "system__memoryS");
 
    --  BEGIN ELABORATION ORDER
    --  ada%s
@@ -333,8 +319,6 @@ package ada_main is
    --  system.wch_jis%b
    --  system.wch_cnv%s
    --  system.wch_cnv%b
-   --  system.concat_2%s
-   --  system.concat_2%b
    --  system.traceback%s
    --  system.traceback%b
    --  ada.characters.handling%s
@@ -423,11 +407,6 @@ package ada_main is
    --  system.file_io%b
    --  ada.text_io%s
    --  ada.text_io%b
-   --  week%s
-   --  week.child%s
-   --  week.child%b
-   --  week.child.grandchild%s
-   --  week.child.grandchild%b
    --  main%b
    --  END ELABORATION ORDER
 

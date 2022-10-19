@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__integer_type_example.o
+[PROJECT FILES]
+C:\Users\jbsaldana\cursos\ada\Pruebas\pruebas.gpr
+20221018095408 1b85c9effa96984c86e45fce7f761c17
+[BOUND OBJECT FILES]
+C:\Users\jbsaldana\cursos\ada\Pruebas\obj\integer_type_example.o
+[GENERATED SOURCE FILES]
+b__integer_type_example.ads
+b__integer_type_example.adb
+b__integer_type_example.ali
+[RESULTING OPTIONS]
+-LC:\Users\jbsaldana\cursos\ada\Pruebas\obj\
+-LC:\Users\jbsaldana\cursos\ada\Pruebas\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

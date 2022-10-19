@@ -1,0 +1,11 @@
+main.adb:9:10: error: expected private type "Ada.Strings.Unbounded.Unbounded_String"
+main.adb:9:10: error: found type "Standard.String"
+main.adb:12:10: error: expected private type "Ada.Strings.Unbounded.Unbounded_String"
+main.adb:12:10: error: found type "Standard.String"
+main.adb:14:07: error: no candidate interpretations match the actuals:
+main.adb:14:07: error: missing argument for parameter "Item" in call to "Put" declared at a-textio.ads:457
+main.adb:14:07: error: missing argument for parameter "Item" in call to "Put" declared at a-textio.ads:384
+main.adb:14:26: error: expected type "Standard.String"
+main.adb:14:26: error: found private type "Ada.Strings.Unbounded.Unbounded_String"
+main.adb:14:26: error:   ==> in call to "Put" at a-textio.ads:463
+main.adb:14:26: error:   ==> in call to "Put" at a-textio.ads:390
