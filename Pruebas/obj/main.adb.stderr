@@ -1,0 +1,6 @@
+main.adb:19:40: warning: value not in range of type "Social_Security_Number" defined at line 5 [enabled by default]
+main.adb:19:40: warning: "Constraint_Error" will be raised at run time [enabled by default]
+main.adb:22:09: error: expected type "Standard.Integer"
+main.adb:22:09: error: found type "Social_Security_Number" defined at line 5
+main.adb:25:11: error: expected type "Social_Security_Number" defined at line 5
+main.adb:25:11: error: found type "Standard.Integer"

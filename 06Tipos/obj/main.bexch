@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\jbsaldana\cursos\ada\06Tipos\tipos.gpr
+20221020084132 27098b78fc72e658abc5c2403421808d
+[BOUND OBJECT FILES]
+C:\Users\jbsaldana\cursos\ada\06Tipos\obj\geometria.o
+C:\Users\jbsaldana\cursos\ada\06Tipos\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\jbsaldana\cursos\ada\06Tipos\obj\
+-LC:\Users\jbsaldana\cursos\ada\06Tipos\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

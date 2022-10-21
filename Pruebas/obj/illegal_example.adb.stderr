@@ -1,0 +1,2 @@
+illegal_example.adb:12:33: error: expected type "Miles" defined at line 5
+illegal_example.adb:12:33: error: found type "Meters" defined at line 4

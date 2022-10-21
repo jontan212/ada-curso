@@ -1,16 +1,32 @@
 with Ada.Text_IO; use Ada.Text_IO;
 procedure Main is
-   type Mod_Int is mod 2**5;
-   --              ^ El rango es 0 .. 31
+   -- ID tipo número de tarjeta,
+   -- incompatible con Integer.
+   type Social_Security_Number is new Integer range 0 .. 999_99_9999;
+   -- Dado que un SSN es máximo de             -----^
+   -- 9 dígitos y no puede ser negativo,
+   -- aplicamos una restricción de validez.
 
-   A : constant Mod_Int := 20;
-   B : constant Mod_Int := 15;
+   SSN : Social_Security_Number := 555_55_5555;
+   -- Puedes poner barra baja    -----^
+   -- como formato en cualquier número.
 
-   M : constant Mod_Int := A + B;
-   -- No hay desbordamiento aquí,
-   -- M = (20 + 15) mod 32 = 3
+   I : Integer;
+
+   -- El valor -1 a continuación causará un error
+   -- en tiempo de ejecución y una advertencia
+   -- en tiempo de compilación con GNAT.
+   Invalid : Social_Security_Number := -1;
 begin
-   for I in 1 .. M loop
-      Put_Line ("Hola, Mundo!");
-   end loop;
+   -- Ilegal, tienen diferentes tipos:
+   I := SSN;
+
+   -- También es ilegal:
+   SSN := I;
+
+   -- OK con la conversión explícita:
+   I := Integer (SSN);
+
+   -- Igualmente OK:
+   SSN := Social_Security_Number (I);
 end Main;
