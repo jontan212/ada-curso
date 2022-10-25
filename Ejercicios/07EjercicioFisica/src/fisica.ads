@@ -1,9 +1,4 @@
 package Fisica is
-
-   --  Distancia : Float;
-   --  Velocidad : Float;
-   --  Tiempo    : Float;
-   --  Acelerar  : Float;
    
    type Distancia is new Float;
    type Velocidad is new Float;

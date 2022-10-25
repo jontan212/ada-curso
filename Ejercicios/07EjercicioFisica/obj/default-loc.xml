@@ -11,20 +11,24 @@
       <vfs_file>C:\Users\jbsaldana\cursos\ada\05Paquetes\src\io.adb</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\jbsaldana\cursos\ada\Ejercicios\07EjercicioFisica\default.gpr</vfs_project>
+      <vfs_project />
       <vfs_file>C:\Users\jbsaldana\cursos\ada\Ejercicios\07EjercicioFisica\src\main.adb</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 13" >
-      <vfs_project>C:\Users\jbsaldana\cursos\ada\Ejercicios\07EjercicioFisica\default.gpr</vfs_project>
+      <vfs_project />
       <vfs_file>C:\Users\jbsaldana\cursos\ada\Ejercicios\07EjercicioFisica\src\main.adb</vfs_file>
     </file_marker>
     <file_marker column=" 7" line=" 12" >
-      <vfs_project>C:\Users\jbsaldana\cursos\ada\Ejercicios\07EjercicioFisica\default.gpr</vfs_project>
+      <vfs_project />
       <vfs_file>C:\Users\jbsaldana\cursos\ada\Ejercicios\07EjercicioFisica\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 4" line=" 3" >
-      <vfs_project>C:\Users\jbsaldana\cursos\ada\Ejercicios\07EjercicioFisica\default.gpr</vfs_project>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project />
       <vfs_file>C:\Users\jbsaldana\cursos\ada\Ejercicios\07EjercicioFisica\src\fisica.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 8" >
+      <vfs_project />
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\Ejercicios\07EjercicioFisica\src\fisica.ads</vfs_file>
     </file_marker>
   </Project>
 </Locations>
