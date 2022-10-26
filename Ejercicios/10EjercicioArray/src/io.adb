@@ -23,7 +23,6 @@ package body IO is
          end;
          Put_Line (ErrorM4essage);
       end loop;
-   end Get_NotEmpty_Line;
 
    function Try_Get_Integer (Value : out Integer) return Boolean is
    begin
