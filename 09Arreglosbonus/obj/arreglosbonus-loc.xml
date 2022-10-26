@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file />
+    <file_marker column=" 12" line=" 122" >
+      <vfs_project />
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\Arreglosbonus\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 55" line=" 3" >
+      <vfs_project />
+      <vfs_file>C:\Users\jbsaldana\cursos\ada\Arreglosbonus\src\float_array.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

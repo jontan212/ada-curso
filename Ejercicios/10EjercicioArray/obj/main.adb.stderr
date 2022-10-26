@@ -1,0 +1,4 @@
+C:\Users\jbsaldana\cursos\ada\Ejercicios\10EjercicioArray\src\main.adb:17:36: error: expected private type "Ada.Strings.Unbounded.Unbounded_String"
+C:\Users\jbsaldana\cursos\ada\Ejercicios\10EjercicioArray\src\main.adb:17:36: error: found type "Standard.String"
+C:\Users\jbsaldana\cursos\ada\Ejercicios\10EjercicioArray\src\main.adb:18:39: error: expected private type "Ada.Strings.Unbounded.Unbounded_String"
+C:\Users\jbsaldana\cursos\ada\Ejercicios\10EjercicioArray\src\main.adb:18:39: error: found type "Standard.String"
