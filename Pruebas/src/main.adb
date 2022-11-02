@@ -1,13 +1,16 @@
 with Ada.Text_IO; use Ada.Text_IO;
-with Dates;       use Dates;
-
 procedure Main is
-   D : Date := (1, January, 2_000);
+   Buf : String := "Hola ...";
+
+   Full_Name : String := "John Smith";
 begin
-   Display_Month (D);
+   Buf (6 .. 8) := "Bob";
+   --  Esto funciona porque el String
+   --  a la derecha tiene la misma longitud
+   --  del slice(porción) reemplazada
 
-   Put_Line ("Incrementando mes...");
-   Increase_Month (D);
-
-   Display_Month (D);
+   --  Imprime "Hola Bob"
+   Put_Line (Buf);
+   --  Imprime "Hola John"
+   Put_Line ("Hola " & Full_Name (1 .. 4));
 end Main;

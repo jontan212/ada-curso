@@ -1,0 +1,146 @@
+{
+	// Place your Paquete Ada workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+  // }
+
+  //* Este conjunto de snippets permiten hacer que la consola tenga color fácilmente, sin tener que recordar números.
+  "Color reset": {
+    "scope": "ada",
+    "prefix": "reset",
+    "body": [
+      "Put(ASCII.ESC & \"[00m\");",
+      "$0"
+    ],
+    "description": "Resetea los colores de consola. No olvides que `reset` devolverá todo al estado original."
+  },
+  "Color Bold": {
+    "scope": "ada",
+    "prefix": ["bold", "negrita"],
+    "body": [
+      "Put(ASCII.ESC & \"[01m\");",
+      "$0"
+    ],
+    "description": "Pone el texto en negrita"
+  },
+  "Color Underscore": {
+    "scope": "ada",
+    "prefix": ["underscore", "subrayado"],
+    "body": [
+      "Put(ASCII.ESC & \"[04m\");",
+      "$0"
+    ],
+    "description": "Pone el texto subrayado. No olvides que `reset` devolverá todo al estado original."
+  },
+  "Color Blink": {
+    "scope": "ada",
+    "prefix": ["blink", "parpadear"],
+    "body": [
+      "Put(ASCII.ESC & \"[05m\");",
+      "$0"
+    ],
+    "description": "Pone el texto en modo parpadeante. No olvides que `reset` devolverá todo al estado original."
+  },
+  "Color Reverse": {
+    "scope": "ada",
+    "prefix": ["reverse", "invertido"],
+    "body": [
+      "Put(ASCII.ESC & \"[07m\");",
+      "$0"
+    ],
+    "description": "Pone el texto invertido. No olvides que `reset` devolverá todo al estado original."
+  },
+  "Color Concealed": {
+    "scope": "ada",
+    "prefix": ["concealed", "oculto"],
+    "body": [
+      "Put(ASCII.ESC & \"[08m\");",
+      "$0"
+    ],
+    "description": "Pone el texto oculto. No olvides que `reset` devolverá todo al estado original."
+  },
+  "Color Black": {
+    "scope": "ada",
+    "prefix": ["black", "negro"],
+    "body": [
+      "Put(ASCII.ESC & \"[30m\");",
+      "$0"
+    ],
+    "description": "Pone el texto en negro. No olvides que `reset` devolverá todo al estado original."
+  },
+  "Color Red": {
+    "scope": "ada",
+    "prefix": ["red", "rojo"],
+    "body": [
+      "Put(ASCII.ESC & \"[31m\");",
+      "$0"
+    ],
+    "description": "Pone el texto en rojo. No olvides que `reset` devolverá todo al estado original."
+  },
+  "Color Green": {
+    "scope": "ada",
+    "prefix": ["green", "verde"],
+    "body": [
+      "Put(ASCII.ESC & \"[32m\");",
+      "$0"
+    ],
+    "description": "Pone el texto en verde. No olvides que `reset` devolverá todo al estado original."
+  },
+  "Color Yellow": {
+    "scope": "ada",
+    "prefix": ["yellow", "amarillo"],
+    "body": [
+      "Put(ASCII.ESC & \"[33m\");",
+      "$0"
+    ],
+    "description": "Pone el texto en amarillo. No olvides que `reset` devolverá todo al estado original."
+  },
+  "Color Blue": {
+    "scope": "ada",
+    "prefix": ["blue", "azul"],
+    "body": [
+      "Put(ASCII.ESC & \"[34m\");",
+      "$0"
+    ],
+    "description": "Pone el texto en azul. No olvides que `reset` devolverá todo al estado original."
+  },
+  "Color Magenta": {
+    "scope": "ada",
+    "prefix": "magenta",
+    "body": [
+      "Put(ASCII.ESC & \"[35m\");",
+      "$0"
+    ],
+    "description": "Pone el texto en magenta. No olvides que `reset` devolverá todo al estado original."
+  },
+  "Color Cyan": {
+    "scope": "ada",
+    "prefix": ["cyan", "cian"],
+    "body": [
+      "Put(ASCII.ESC & \"[36m\");",
+      "$0"
+    ],
+    "description": "Pone el texto en cian. No olvides que `reset` devolverá todo al estado original."
+  },
+  "Color White": {
+    "scope": "ada",
+    "prefix": ["white", "blanco"],
+    "body": [
+      "Put(ASCII.ESC & \"[37m\");",
+      "$0"
+    ],
+    "description": "Pone el texto en blanco. No olvides que `reset` devolverá todo al estado original."
+  },
+}

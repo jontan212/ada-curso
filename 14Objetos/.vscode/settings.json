@@ -1,0 +1,12 @@
+{
+  "editor.tabSize": 2,
+  "editor.detectIndentation": true,
+  "editor.maxTokenizationLineLength": 5000,
+  "debug.allowBreakpointsEverywhere": true,
+  "ada.defaultCharset": "utf-8",
+  "ada.displayMethodAncestryOnNavigation": "always",
+  "files.associations": {
+    "*.adb": "ada",
+    "*.ads": "ada"
+  }
+}

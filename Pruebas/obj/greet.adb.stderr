@@ -1,0 +1,2 @@
+C:\Users\jbsaldana\cursos\ada\Pruebas\src\greet.adb:13:31: error: expected type "My_Index" defined at line 6
+C:\Users\jbsaldana\cursos\ada\Pruebas\src\greet.adb:13:31: error: found type "Your_Index" defined at line 7

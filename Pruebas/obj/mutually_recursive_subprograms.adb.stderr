@@ -1,2 +1,0 @@
-mutually_recursive_subprograms.adb:8:10: error: "Compute_A" is undefined
-mutually_recursive_subprograms.adb:8:10: error: possible misspelling of "Compute_B"

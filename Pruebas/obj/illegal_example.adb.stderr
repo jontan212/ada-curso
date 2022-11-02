@@ -1,2 +1,2 @@
-illegal_example.adb:12:33: error: expected type "Miles" defined at line 5
-illegal_example.adb:12:33: error: found type "Meters" defined at line 4
+C:\Users\jbsaldana\cursos\ada\pruebas\src\illegal_example.adb:14:33: error: expected type "Miles" defined at line 6
+C:\Users\jbsaldana\cursos\ada\pruebas\src\illegal_example.adb:14:33: error: found type "Meters" defined at line 5

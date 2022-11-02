@@ -1,22 +1,20 @@
 with Ada.Text_IO; use Ada.Text_IO;
-procedure Greet is
-   type My_Int is range 0 .. 1_000;
-   type Index is range 1 .. 5;
+procedure Indefinite_Subtypes is
+   function Get_Number return Integer is
+   begin
+      return Integer'Value (Get_Line);
+   end Get_Number;
 
-   type My_Int_Array is array (Index) of My_Int;
-   --                                    ^ Tipo de elementos
-   --                          ^ Límites de la matriz
-   Arr : My_Int_Array := (2, 3, 5, 7, 11);
-   --                     ^ Array literal
-   --                       (aggregate)
+   A : String := "Hello";
+-- Indefinite subtype
 
-   V : My_Int;
+   B : String (1 .. 5) := "Hello";
+   -- Definite subtype
+
+   C : String (1 .. Get_Number);
+   -- Indefinite subtype
+   -- (Get_Number's value is computed at
+   -- run-time)
 begin
-   for I in Index loop
-      V := Arr (I);
-      --        ^ Toma el elemento I
-      --  Put (My_Int'Image (V));
-      Put (Arr (I)'Image);
-   end loop;
-   New_Line;
-end Greet;
+   null;
+end Indefinite_Subtypes;

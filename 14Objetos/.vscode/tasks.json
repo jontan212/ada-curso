@@ -1,0 +1,94 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "1. Compilar & Ejecutar",
+			"detail": "Compila y ejecuta el archivo actual",
+			"type": "shell",
+			"command": "",
+			"dependsOrder": "sequence",
+			"dependsOn": [
+				"4. Compilar",
+				"2. Ejecutar"
+			],
+			"presentation": {
+				"focus": true,
+				"reveal": "always"
+			},
+			"problemMatcher": [
+				"$ada"
+			],
+			"group": "build"
+		},
+		{
+			"label": "2. Ejecutar",
+			"detail": "Ejecuta el programa compilado anteriormente",
+			"type": "shell",
+			"windows": {
+				"command": "cd ${fileDirname}\\..\\obj && IF EXIST \"entrada.txt\" (${fileBasenameNoExtension}.exe<entrada.txt) ELSE (${fileBasenameNoExtension}.exe)"
+			},
+			"command": "cd ${fileDirname}\\..\\obj && ./${fileBasenameNoExtension}",
+			"presentation": {
+				"focus": true,
+				"reveal": "always"
+			},
+			"problemMatcher": [
+				"$ada"
+			],
+			"group": {
+				"kind": "test",
+				"isDefault": true
+			}
+		},
+		{
+			"label": "3. Limpieza",
+			"detail": "Elimina todos los archivos generados por GNAT",
+			"type": "shell",
+			"command": "cd ${fileDirname}\\..\\obj && gnatclean ${fileBasenameNoExtension}",
+			"presentation": {
+				"reveal": "silent"
+			},
+			"problemMatcher": [
+				"$ada"
+			]
+		},
+		{
+			"label": "4. Compilar",
+			"detail": "Compila el archivo actual",
+			"type": "shell",
+			"command": "cd ${fileDirname}\\..\\obj && gnatmake ..\\src\\${fileBasename} -gnatW8 && gnatclean ${fileBasenameNoExtension} -c",
+			"args": [],
+			"presentation": {
+				"clear": true
+			},
+			"problemMatcher": [
+				"$ada"
+			]
+		},
+		{
+			"label": "5. Compilar para depuración",
+			"detail": "Compila de manera que se pueda debuggear después",
+			"type": "shell",
+			"command": "cd ${fileDirname} && gnatmake ${fileBasename} -g -gnatW8 && gnatclean ${fileBasenameNoExtension} -c",
+			"args": [],
+			"presentation": {
+				"clear": true
+			},
+			"problemMatcher": [
+				"$ada"
+			]
+		},
+		{
+			"type": "gprbuild",
+			"projectFile": "${config:ada.projectFile}",
+			"problemMatcher": [
+				"$ada"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"label": "ada: Build current project"
+		}
+	]
+}

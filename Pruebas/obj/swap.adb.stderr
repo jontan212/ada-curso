@@ -1,3 +1,0 @@
-swap.adb:8:04: error: assignment to "in" mode parameter not allowed
-swap.adb:12:04: error: assignment to "in" mode parameter not allowed
-swap.adb:12:12: error: missing ";"

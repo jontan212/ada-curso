@@ -1,2 +1,0 @@
-floating_point_range_exception.adb:6:09: warning: value not in range of type "T_Norm" defined at line 3 [enabled by default]
-floating_point_range_exception.adb:6:09: warning: "Constraint_Error" will be raised at run time [enabled by default]
