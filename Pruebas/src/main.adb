@@ -1,16 +1,16 @@
 with Ada.Text_IO; use Ada.Text_IO;
+with Measurements;
+
 procedure Main is
-   Buf : String := "Hola ...";
-
-   Full_Name : String := "John Smith";
+   subtype Degrees is Measurements.Degree_Celsius;
+   T : Degrees renames Measurements.Current_Temperature;
 begin
-   Buf (6 .. 8) := "Bob";
-   --  Esto funciona porque el String
-   --  a la derecha tiene la misma longitud
-   --  del slice(porción) reemplazada
+   T := 5.0;
+   Put_Line (Degrees'Image (T));
+   Put_Line (Degrees'Image (Measurements.Current_Temperature));
 
-   --  Imprime "Hola Bob"
-   Put_Line (Buf);
-   --  Imprime "Hola John"
-   Put_Line ("Hola " & Full_Name (1 .. 4));
+   T := T + 2.5;
+   Put_Line (Degrees'Image (T));
+   Put_Line (Degrees'Image (Measurements.Current_Temperature));
+
 end Main;

@@ -7,7 +7,9 @@ package Personaje is
   type Puntos_Experiencia is new Integer range 0 .. 2_000;
 
   type Clase_Campeon is tagged private;
-  type Campeon is access Clase_Campeon;
+  -- Puedo Poner cualquier de las dos dependiendo si tengo subclases
+  --  type Campeon is access Clase_Campeon; -- Final, sin subclases
+  type Campeon is access Clase_Campeon; -- Puedo tener subclases
 
   --Constructor
   function Create (Nombre : String) return Campeon;

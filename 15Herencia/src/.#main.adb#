@@ -1,0 +1,37 @@
+with Ada.Text_IO; use Ada.Text_IO;
+with Selva;       use Selva;
+with IO; use IO;
+
+procedure Main is
+  --  Leon : Animal;
+  Un_Animal : Animal;
+
+  -- Declerao un vector de aniamles
+  type Array_Animales is array (Positive range <>) of Animal;
+
+  procedure Ask_Animales is
+  Total:Integer;
+  begin
+  Put_Line("Cuantos animales quieres?");
+  --  declare
+  --  Arr_Animales:Array_Animales;
+  --  begin
+  --   null;
+  --   end;
+  end;
+begin
+  --  Leon := Create ("Mufasa");
+
+  --  Elijo uno u otro
+  --  Un_Animal := new Clase_Leon;
+  --  Un_Animal := new Clase_Jirafa;
+
+  --  Ahora uso Constructores
+  --  Un_Animal := Create_Leon ("Alex");
+  --  Un_Animal := Create_Jirafa ("Mellman");
+  --  Put_Line ("Hola soy " & Un_Animal.Get_Nombre);
+  --  Un_Animal.Hablar;
+
+  -- Pregunte al usuario cuantos animales quiere e incialize un arreglo de aniamles
+  -- Agregar un bloque
+end Main;
